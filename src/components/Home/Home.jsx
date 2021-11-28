@@ -29,7 +29,7 @@ const Home = () => {
         <span className="pokemon-route">/pokemon/[pokemon_id]</span>
         {`to get your command `}
       </div>
-      <div>{`OR type your Pokemon ID and press "Get Command!! `}</div>
+      <div>{`OR type your Pokemon ID and press "Get Command!" `}</div>
       <div>
         <form onSubmit={submit}>
           {`Pokemon ID: `}
